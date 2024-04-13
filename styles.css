@@ -1,0 +1,36 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+  font-size: 30px;
+  color: white;
+}
+.shuffle{
+  display: flex;
+  height: 400px;
+}
+.box-images{
+  position: relative;
+  margin-right: 20px;
+}
+.text{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.image{
+  height: 100%;
+  width: 100px;
+  object-fit: cover;
+  object-position: left;
+  transition: 0.15s;
+}
+.active{
+  width:600px ;
+}
+.image:active{
+  width:600px;
+  .active{
+    width: 100px;
+  }
+}
