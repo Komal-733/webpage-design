@@ -1,0 +1,10 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+  display:grid;
+  grid-template-columns:2;
+  grid-column: 200px 1fr;
+}
